@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style> 
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      text-align: center;
+    }
+    nav {
+      background: #0077b6;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    nav h1 {
+      color: white;
+      display: inline;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: inline;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .form-card1 {
+      background: linear-gradient(135deg, #0077b6, #0096c7);
+      border-radius: 22px;
+      transition: all 0.3s;
+      padding: 20px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .form-card1:hover {
+      box-shadow: 0px 0px 30px 1px rgba(100, 255, 218, 0.3);
+    }
+    .form-card2 {
+      border-radius: 0;
+      transition: all 0.2s;
+      background: #022b3a;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    .form-card2:hover {
+      transform: scale(0.98);
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+      border-radius: 20px;
+      color: white;
+    }
+    .form-heading {
+      text-align: center;
+      color: #00a8e8;
+      font-size: 1.5em;
+    }
+    .form-field {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5em;
+      border-radius: 10px;
+      padding: 0.6em;
+      border: none;
+      outline: none;
+      background-color: #004e92;
+      box-shadow: inset 2px 5px 10px rgba(5, 5, 5, 0.3);
+    }
+    .input-field {
+      background: none;
+      border: none;
+      outline: none;
+      width: 100%;
+      color: #caf0f8;
+      padding-inline: 1em;
+    }
+    .sendMessage-btn {
+      cursor: pointer;
+      padding: 1em;
+      border-radius: 10px;
+      border: none;
+      background-color: transparent;
+      color: #00a8e8;
+      font-weight: bold;
+      outline: 1px solid #00a8e8;
+      transition: all ease-in-out 0.3s;
+    }
+    .sendMessage-btn:hover {
+      background-color: #64ffda;
+      color: #000;
+      box-shadow: inset 2px 5px 10px rgba(5, 5, 5, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+      <li><a href="./about_us.html" id="About">About Us</a></li>
+      <li><a href="./travel_contact.html" id="contact">Contact Us</a></li>
+      
+
+    </ul>
+  </nav>
+  <h1>Contact Us</h1>
+  <p>Feel free to contact us to explore more destinations</p>
+  <div class="form-card1">
+    <div class="form-card2">
+      <form class="form">
+        <p class="form-heading">Contact us</p>
+        <div class="form-field">
+          <input required placeholder="Name" class="input-field" type="text" />
+        </div>
+        <div class="form-field">
+          <input required placeholder="Email" class="input-field" type="email" />
+        </div>
+        <div class="form-field">
+          <input required placeholder="Subject" class="input-field" type="text" />
+        </div>
+        <div class="form-field">
+          <textarea required placeholder="Message" cols="30" rows="3" class="input-field"></textarea>
+        </div>
+        <button class="sendMessage-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+ 
+
+  <script>
+    function thankyou(){
+        alert('Thank you for contacting us!')
+    }
+  </script>
+</body>
+</html>
