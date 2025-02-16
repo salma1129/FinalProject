@@ -52,7 +52,7 @@ function searchRecommendations() {
             placeCard.innerHTML=`
             <img src="${place.imageUrl}" alt ="${place.name}">
             <h2>${place.name}</h2>
-            <p>$ {place.description}</p>
+            <p>${place.description}</p>
             `;
             contentDiv.appendChild(placeCard);
 
