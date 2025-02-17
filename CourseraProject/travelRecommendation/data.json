@@ -6,7 +6,7 @@
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "/travelRecommendation/sydney.jpg",
+          "imageUrl": "sydney.jpg",
           "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
         },
         {
@@ -22,12 +22,12 @@
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "/travelRecommendation/images/tokyo.jpg",
+          "imageUrl": "tokyo.jpg",
           "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "/travelRecommendation/images/kyoto.jpg",
+          "imageUrl": "kyoto.jpg",
           "description": "Known for its historic temples, gardens, and traditional tea houses."
         }
       ]
@@ -38,12 +38,12 @@
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "/travelRecommendation/images/riodeJaneiro.jpg",
+          "imageUrl": "riodeJaneiro.jpg",
           "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
         },
         {
           "name": "São Paulo, Brazil",
-          "imageUrl": "/travelRecommendation/images/saoPaulo.jpg",
+          "imageUrl": "saoPaulo.jpg",
           "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
         }
       ]
